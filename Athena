@@ -1,0 +1,11 @@
+Description: 
+Create a serverless data lake where data is ingested into S3, cataloged with Glue Data Catalog, and queried directly using Athena.
+
+Tech Stack: 
+S3, Glue Catalog, Athena, SQL.
+
+Key Steps:
+
+Store structured + semi-structured data in S3.
+Use Glue crawler to catalog schema.
+Run SQL queries on top of raw data using Athena.
