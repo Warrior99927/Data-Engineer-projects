@@ -5,7 +5,6 @@ Use Apache Airflow to orchestrate a pipeline that moves data from S3 → Redshif
 Airflow, Python, PySpark, Redshift, SQL.
 
 **Key Steps:**
-
 Airflow DAG scheduled daily.
 Extract → load raw data from S3.
 Transform with PySpark.
