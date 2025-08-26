@@ -5,7 +5,6 @@ Build an automated ETL pipeline that ingests raw CSV/JSON data from Amazon S3, p
 AWS Glue, PySpark, S3, Redshift, SQL.
 
 **Key Steps:**
-
 Raw data → S3 bucket.
 Glue job (PySpark) → clean, transform, and normalize.
 Load into Redshift fact and dimension tables.
